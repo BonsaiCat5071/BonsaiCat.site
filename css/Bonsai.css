@@ -1,0 +1,64 @@
+.title {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 25px;
+  
+  
+}
+
+body {
+
+    background: url('/home/bonsai/Documents/webpages/bonsaicat.site/images/IRL_Rice_Shower.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+    
+    
+}
+
+.nav{
+
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+  
+    
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+
+    float: left;
+}
+
+ul li a {
+
+    padding: 16px 16px;
+    display: inline-block;
+}
