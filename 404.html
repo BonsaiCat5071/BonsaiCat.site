@@ -11,16 +11,31 @@
       
 
         <h1>404 error page does not exist <a href="#" onclick="goBack()">go back</a> </h1><br>
-        <h1>My sites home page <a href="index.html">here</a></h1>
+        <h1>My sites home page <a href="index.html">here</a></h1><br>
+        <h1><a href='#' onclick="randomimage()">I'm feeling lucky</a></h1>
+
+        <img id="nekoImage" width="500">
       
 <script>
-function goBack() {
+
+  function goBack() {
+
     if (window.history.length > 1) {
         window.history.back();
     } else {
         window.location.href = "index.html";
     }
-}
+
+  }
+
+  async function randomimage() {
+
+    const Response = await fetch('https://nekos.best/api/v2/neko');
+    const post = await Response.json();
+
+    document.getElementById("nekoImage").src = post.results[0].url;
+
+  }
 </script>
       
     </header>
