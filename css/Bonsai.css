@@ -85,7 +85,7 @@ body.index{
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     
 }
 
@@ -95,7 +95,7 @@ body.about-me{
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
 
 
 }
@@ -106,10 +106,21 @@ body.buttons{
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
 
 
 }
+
+body.error{
+
+    background: url('../images/skibidi-rizz.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+    
+
 
 .nav{
 
