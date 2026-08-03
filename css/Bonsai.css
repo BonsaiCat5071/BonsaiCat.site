@@ -6,34 +6,86 @@
     font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 
 
-.main {
+main.main {
   
-  justify-content: start;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 300px;
-  margin-left: 300px;
-  background-color: rgba(129, 236, 255, 0.3);
-  font-size: 20px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 31%;
+    margin-left: 31%;
+    font-size: 20px;
+    border-top-width: 4px;
+    border-top-style: outset;
+    border-top-color: rgb(0, 0, 0);
+    border-right-width: 4px;
+    border-right-style: outset;
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-width: 4px;
+    border-bottom-style: outset;
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 4px;
+    border-left-style: outset;
+    border-left-color: rgb(0, 0, 0);
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+
   
   
   
 }
 
+.text{
 
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    font-size: 20px;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+
+}
+
+.images{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    max-width: 100%;
+    margin: auto auto;
+    display: block;
+
+}
+
+.img {
+
+    max-width: 100%;
+    margin: auto auto 8px;
+    display: block;
+}
 
 body.index{
 
     background: url('../images/IRL_Rice_Shower.webp') no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
     
 }
 
@@ -42,8 +94,8 @@ body.about-me{
     background: url('../images/IRL_agnes_tachyon.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
 
 
 }
@@ -53,8 +105,8 @@ body.buttons{
     background: url('../images/IRL_Manhattan_cafe.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
 
 
 }
@@ -65,8 +117,28 @@ body.buttons{
     justify-content: center;
     background-color: blueviolet;
     text-align: center;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 31%;
+    margin-left: 31%;
+    border-top-width: 4px;
+    border-top-style: outset;
+    border-top-color: rgb(0, 0, 0);
+    border-right-width: 4px;
+    border-right-style: outset;
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-width: 4px;
+    border-bottom-style: outset;
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 4px;
+    border-left-style: outset;
+    border-left-color: rgb(0, 0, 0);
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    font-size: 25px;
   
     
 }
@@ -87,7 +159,4 @@ ul li a {
     display: inline-block;
 }
 
-a {
 
-    font-size: 20px;
-}
