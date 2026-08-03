@@ -11,28 +11,52 @@
 
 
 .main {
-  display: flex;
-  justify-content: space-around;
+  
+  justify-content: start;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-right: 300px;
   margin-left: 300px;
-  background-color: rgba(255, 255, 255, 0.1);
-  font-size: 25px;
+  background-color: rgba(129, 236, 255, 0.3);
+  font-size: 20px;
+  
   
   
 }
 
-body {
 
-    background: url('/home/bonsai/Documents/webpages/bonsaicat.site/images/IRL_Rice_Shower.webp') no-repeat;
+
+body.index{
+
+    background: url('../images/IRL_Rice_Shower.webp') no-repeat;
     background-size: cover;
     background-position: center;
     width: 100vw;
     min-height: 100vh;
     
-    
+}
+
+body.about-me{
+
+    background: url('../images/IRL_agnes_tachyon.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+
+
+}
+
+body.buttons{
+
+    background: url('../images/IRL_Manhattan_cafe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+
+
 }
 
 .nav{
@@ -61,4 +85,9 @@ ul li a {
 
     padding: 16px 16px;
     display: inline-block;
+}
+
+a {
+
+    font-size: 20px;
 }
